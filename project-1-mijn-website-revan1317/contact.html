@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <p>Fill out the form below to reach out to us.</p>
+    </header>
+
+    <main>
+        <form action="#" method="POST" class="support-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="issue">Issue Category:</label>
+            <select id="issue" name="issue">
+                <option value="account">Account Issue</option>
+                <option value="payment">Payment Issue</option>
+                <option value="gameplay">Gameplay Issue</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Describe Your Problem:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Provide details about your issue" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <style>
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #2b2b2b;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    
+        body {
+            min-height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+    
+        main {
+            padding-bottom: 50px;
+        }
+    </style>
+
+    <footer>
+        <p>&copy; 2024 Fortnite Tracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
