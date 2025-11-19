@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bit Academy Sign Up</h1>
+    <form action="sign_up.html">
+        <div>
+            <label for="name"><b>Naam</b></label>
+        </div>
+        <div>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div>
+            <label for="email"><b>E-mail</b></label>
+        </div>
+        <div>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="telefoonnummer"><b>Telefoonnummer</b></label>
+        </div>
+        <div>
+            <input type="tel" id="telefoonnummer" name="telefoonnummer">
+        </div>
+
+        <div>
+            <label for="pincode"><b>Pincode</b></label>
+        </div>
+        <div>
+            <input type="password" id="pincode" name="pincode">
+        </div>
+
+        <div>
+            <label for="provincie"><b>Provincie</b></label>
+        </div>
+        <div>
+            <select id="provincie" name="provincie">
+                <option value="">Kies een optie</option>
+                <option value="groningen">Groningen</option>
+                <option value="friesland">Friesland</option>
+                <option value="drenthe">Drenthe</option>
+                <option value="overijssel">Overijssel</option>
+                <option value="flevoland">Flevoland</option>
+                <option value="gelderland">Gelderland</option>
+                <option value="utrecht">Utrecht</option>
+                <option value="noord-holland">Noord-Holland</option>
+                <option value="zuid-holland">Zuid-Holland</option>
+                <option value="zeeland">Zeeland</option>
+                <option value="noord-brabant">Noord-Brabant</option>
+                <option value="limburg">Limburg</option>
+            </select>
+        </div>
+
+        <div>
+            <label><b>Hou je van voetbal?</b></label><br>
+            <input type="radio" id="nee" name="voetbal" value="nee">
+            <label for="nee">Nee</label><br>
+            <input type="radio" id="ja" name="voetbal" value="ja">
+            <label for="ja">Ja</label><br>
+        </div>
+
+        <div>
+            <label><b>Favoriete dagen in de week</b></label><br>
+            <input type="checkbox" id="maandag" name="dagen" value="maandag">
+            <label for="maandag">Maandag</label><br>
+            <input type="checkbox" id="dinsdag" name="dagen" value="dinsdag">
+            <label for="dinsdag">Dinsdag</label><br>
+            <input type="checkbox" id="woensdag" name="dagen" value="woensdag">
+            <label for="woensdag">Woensdag</label><br>
+            <input type="checkbox" id="donderdag" name="dagen" value="donderdag">
+            <label for="donderdag">Donderdag</label><br>
+            <input type="checkbox" id="vrijdag" name="dagen" value="vrijdag">
+            <label for="vrijdag">Vrijdag</label><br>
+            <input type="checkbox" id="zaterdag" name="dagen" value="zaterdag">
+            <label for="zaterdag">Zaterdag</label><br>
+            <input type="checkbox" id="zondag" name="dagen" value="zondag">
+            <label for="zondag">Zondag</label><br>
+        </div>
+
+        <div>
+            <label for="opmerkingen"><b>Opmerkingen</b></label>
+        </div>
+        <div>
+            <textarea id="opmerkingen" name="opmerkingen" rows="4" cols="50"></textarea>
+        </div>
+
+        <input type="submit" value="Verzenden">
+    </form>
+
+    <script>
+        const opmerkingenField = document.getElementById('opmerkingen');
+        opmerkingenField.style.border = '2px solid red';
+
+        opmerkingenField.addEventListener('focus', function() {
+            opmerkingenField.style.border = '2px solid green';
+        });
+
+        opmerkingenField.addEventListener('blur', function() {
+            opmerkingenField.style.border = '2px solid red';
+        });
+    </script>
+</body>
+</html>

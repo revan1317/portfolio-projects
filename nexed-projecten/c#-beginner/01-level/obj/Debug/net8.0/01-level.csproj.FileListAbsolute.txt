@@ -1,0 +1,14 @@
+/Users/damian/NexEd/C-sharp-beginner/01-level/bin/Debug/net8.0/01-level
+/Users/damian/NexEd/C-sharp-beginner/01-level/bin/Debug/net8.0/01-level.deps.json
+/Users/damian/NexEd/C-sharp-beginner/01-level/bin/Debug/net8.0/01-level.runtimeconfig.json
+/Users/damian/NexEd/C-sharp-beginner/01-level/bin/Debug/net8.0/01-level.dll
+/Users/damian/NexEd/C-sharp-beginner/01-level/bin/Debug/net8.0/01-level.pdb
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/01-level.GeneratedMSBuildEditorConfig.editorconfig
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/01-level.AssemblyInfoInputs.cache
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/01-level.AssemblyInfo.cs
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/01-level.csproj.CoreCompileInputs.cache
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/01-level.dll
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/refint/01-level.dll
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/01-level.pdb
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/01-level.genruntimeconfig.cache
+/Users/damian/NexEd/C-sharp-beginner/01-level/obj/Debug/net8.0/ref/01-level.dll

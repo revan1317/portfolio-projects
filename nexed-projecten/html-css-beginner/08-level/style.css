@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    width: 80px;
+    height: 60px;
+    transition: background-color 0.3s; 
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.nonmetal {
+    background-color: #ff9966; 
+    color: green; 
+    font-size: 24px;
+}
+
+.alkali {
+    background-color: #c9b3ff; 
+    color: black;
+    font-size: 24px;
+}
+
+.alkaline-earth {
+    background-color: #9cd1ff; 
+    color: black;
+    font-size: 24px;
+}
+
+.transition {
+    background-color: #ffd966; 
+    color: black;
+    font-size: 24px;
+}
+
+td:hover {
+    background-color: #ffcc99; 
+    cursor: pointer; 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}

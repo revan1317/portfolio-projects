@@ -1,0 +1,46 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label, input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"], button {
+    width: auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

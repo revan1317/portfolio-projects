@@ -1,0 +1,61 @@
+h1 {
+    color: blue;
+    font-size: xx-large;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+img {
+    width: 7cm;
+    height: 5cm;
+}
+
+div {
+    background-color: pink;
+}
+
+.highlight {
+    color: red; 
+    font-weight: bold; 
+}
+
+body {
+    background-color: aquamarine;
+}
+
+div {
+    background-color: pink;
+}
+
+h1 {
+    color: blue;
+    font-size: xx-large;
+}
+
+img {
+    width: 7cm;
+    height: 5cm;
+}
+
+section{
+    background-color: rgb(245, 192, 209);
+}
+nav {
+   background-color:  rgb(245, 192, 209);
+   text-align: center   ;
+   margin-top: 10px;
+
+}
+nav a:not(:last-child)::after {
+    content: " | ";
+    color: black;
+    padding-left: 10px;
+}
+footer {
+    background-color: rgb(225, 214, 214);
+    text-align: center;
+    margin: 20px;
+    line-height: 9;
+}
