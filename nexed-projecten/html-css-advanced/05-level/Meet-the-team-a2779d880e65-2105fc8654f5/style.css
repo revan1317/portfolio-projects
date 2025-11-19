@@ -1,0 +1,67 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.collegas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.collega {
+    flex: 1 1 0;
+    margin: 30px;
+    background-color: lightyellow;
+    border-style: none outset outset none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.collega:nth-child(1) .avatar img {
+    width: 67%;
+    object-fit: cover;
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;
+    object-position: center;
+}
+
+.collega:nth-child(2) .avatar img {
+    width: 67%;
+    object-fit: cover;
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;
+    object-position: center;
+}
+
+.collega:nth-child(3) .avatar img {
+    width: 67%;
+    object-fit: cover;
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;
+    object-position: center;
+}
+
+.collega:nth-child(1) > img {
+    width: 10%;
+    object-fit: cover;
+    object-position: left;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+}
+
+.collega:nth-child(2) > img {
+    width: 10%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+}
+
+.collega:nth-child(3) > img {
+    width: 10%;
+    object-fit: cover;
+    object-position: right;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
