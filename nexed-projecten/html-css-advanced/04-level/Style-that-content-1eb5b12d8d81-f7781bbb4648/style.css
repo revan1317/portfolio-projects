@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: peachpuff;
+}
+
+.news {
+    width: 30%;
+}
+
+.news:first-child {
+    justify-content: center;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}

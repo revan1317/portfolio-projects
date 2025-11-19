@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: peachpuff;
+}
+
+.news {
+    width: 30%;
+    padding: 20px;
+}
+
+#breaking {
+    order: -1; 
+    width: 100%;
+    text-align: center;
+}
+
+#breaking h3 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#breaking p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.5;
+}
