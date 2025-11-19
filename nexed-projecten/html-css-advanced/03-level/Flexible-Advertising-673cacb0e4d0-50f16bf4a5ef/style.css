@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Wrapper */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #002f87;
+    color: white;
+    padding: 40px 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 200px;
+}
+
+.review-container {
+    background-color: white;
+    padding: 20px;
+    flex-grow: 2;
+    flex-shrink: 1;
+    margin: 0 20px;
+}
+
+.review-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-text {
+    margin-top: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+
+.sidebar button {
+    background-color: white;
+    color: #002f87;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sidebar button:hover {
+    background-color: #00102d;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.box-art {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+}
